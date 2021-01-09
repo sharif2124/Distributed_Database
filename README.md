@@ -1,2 +1,2 @@
-# Distributed_Database
- its a java Project
+# Distributed-Database-Simulation-master
+ It is java Project.The project implements a distributed database in Java, with multi-version concurrency control, deadlock avoidance, replication, and failure recovery. The database can read input from a file or via command line, and can report the status of transactions (committed, aborted, etc) to the user. The serializability is ensured by two-phase locking and deadlock avoidance is achieved by the wait-die algorithm. Available copies algorithm is adopted to enhance fault tolerance and provide failure recovery.
